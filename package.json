@@ -1,0 +1,41 @@
+{
+  "name": "exemel",
+  "version": "0.1.0",
+  "description": "A normalised way of parsing XML, supporting old IEs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/killdream/exemel.git"
+  },
+  "keywords": [
+    "xml",
+    "browser",
+    "ie8",
+    "parser"
+  ],
+  "author": "Quildreen Motta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/killdream/exemel/issues"
+  },
+  "devDependencies": {
+    "hifive-tap": "~0.1.0",
+    "hifive": "~0.1.0",
+    "browserify": "~2.34.3"
+  },
+  "testling": {
+    "files": "tests/tap.js",
+    "browsers": [
+      "ie/8..latest",
+      "chrome/20..latest",
+      "firefox/15..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  }
+}
