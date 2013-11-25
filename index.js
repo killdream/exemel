@@ -36,7 +36,7 @@ function domParser(xml) {
 //+ String → Document
 function msxmlParser(xml) {
   var dom = new ActiveXObject('msxml2.DOMDocument.3.0')
-  dom.loadXml(xml)
+  dom.loadXML(xml)
   return dom }
 
 //+ String → Document
