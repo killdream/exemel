@@ -1,6 +1,6 @@
 {
   "name": "exemel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A normalised way of parsing XML, supporting old IEs.",
   "main": "index.js",
   "scripts": {
