@@ -110,7 +110,7 @@ function copyAttributes(element, attributes) {
 
 //+ HTMLElement, [Node] → ()
 function appendChildren(element, children) {
-  each( function(x) { element.appendChild(x) }
+  each( function(x) { if (x) element.appendChild(x) }
       , children )}
 
 
