@@ -62,7 +62,7 @@ function each(f, xs) {
 //+ [Node] → DocumentFragment
 function asFragment(xs) {
   var fragment = document.createDocumentFragment()
-  appendChildren(fragment, xs)
+  appendChildren(fragment, map(reify, xs))
   return fragment }
 
 //+ Node → Node
