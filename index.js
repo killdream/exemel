@@ -23,6 +23,12 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+// Node type constants
+var ELEMENT_NODE       = 1
+var TEXT_NODE          = 3
+var CDATA_SECTION_NODE = 4
+var DOCUMENT_NODE      = 9
+
 // Parser implementations
 var parser = 'DOMParser' in window?      domParser
            : 'ActiveXObject' in window?  msxmlParser
@@ -74,16 +80,16 @@ function reify(x) {
 
 //+ Node → Bool
 function isElement(x) {
-  return x.nodeType === document.ELEMENT_NODE }
+  return x.nodeType === ELEMENT_NODE }
 
 //+ Node → Bool
 function isText(x) {
-  return x.nodeType === document.TEXT_NODE
-  ||     x.nodeType === document.CDATA_SECTION_NODE }
+  return x.nodeType === TEXT_NODE
+  ||     x.nodeType === CDATA_SECTION_NODE }
 
 //+ Node → Bool
 function isDocument(x) {
-  return x.nodeType === document.DOCUMENT_NODE }
+  return x.nodeType === DOCUMENT_NODE }
 
 //+ Node → TextNode
 function makeTextNode(x) {
