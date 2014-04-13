@@ -1,7 +1,6 @@
 eXeMeL
 ======
 
-[![Build Status](https://secure.travis-ci.org/robotlolita/exemel.png?branch=master)](https://travis-ci.org/robotlolita/exemel)
 [![Dependencies Status](https://david-dm.org/robotlolita/exemel.png)](https://david-dm.org/robotlolita/exemel.png)
 [![NPM version](https://badge.fury.io/js/exemel.png)](http://badge.fury.io/js/exemel)
 [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges)
