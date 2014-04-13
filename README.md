@@ -1,11 +1,12 @@
 eXeMeL
 ======
 
-[![Dependencies Status](https://david-dm.org/killdream/exemel.png)](https://david-dm.org/killdream/exemel.png)
+[![Build Status](https://secure.travis-ci.org/robotlolita/exemel.png?branch=master)](https://travis-ci.org/robotlolita/exemel)
+[![Dependencies Status](https://david-dm.org/robotlolita/exemel.png)](https://david-dm.org/robotlolita/exemel.png)
 [![NPM version](https://badge.fury.io/js/exemel.png)](http://badge.fury.io/js/exemel)
 [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges)
 
-[![browser support](http://ci.testling.com/killdream/exemel.png)](http://ci.testling.com/killdream/exemel)
+[![browser support](http://ci.testling.com/robotlolita/exemel.png)](http://ci.testling.com/robotlolita/exemel)
 
 
 A normalised way of parsing XML, supporting old IEs (7+).
@@ -36,7 +37,7 @@ The easiest way is to grab it from NPM (if you're in the Browser, use [Browserif
 If you don't want to use NPM and/or Browserify, you'll need to compile the
 library yourself. You'll need [Git][], [Make][] and [Node.js][]:
 
-    $ git clone git://github.com/killdream/exemel.git
+    $ git clone git://github.com/robotlolita/exemel.git
     $ cd exemel
     $ npm install
     $ make bundle
@@ -62,5 +63,5 @@ Testing
 
 Copyright (c) 2013 Quildreen Motta.
 
-Released under the [MIT licence](https://github.com/killdream/exemel/blob/master/LICENCE).
+Released under the [MIT licence](https://github.com/robotlolita/exemel/blob/master/LICENCE).
 
